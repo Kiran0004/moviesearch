@@ -1,0 +1,31 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        apply from: 'gradle/config/dependencies-versions.gradle'
+        apply from: 'gradle/config/dependencies-packages.gradle'
+
+        classpath depends.build.gradle
+        classpath depends.build.kotlin
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        apply from: "$rootProject.rootDir/gradle/config/dependencies-groups.gradle"
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
