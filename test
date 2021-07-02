@@ -1,0 +1,26 @@
+val thread = Thread {
+                try {
+                    //Your code goes here
+                    val credentialsProvider = CognitoCachingCredentialsProvider(
+                            context, "us-east-2:68d07057-d1b6-4da4-8e35-876471a1bffd", Regions.US_EAST_2 // Region
+                    )
+
+                    val dbClient: AmazonDynamoDBClient = Region.getRegion(Regions.US_EAST_2) // CRUCIAL
+                            .createClient(
+                                    AmazonDynamoDBClient::class.java,
+                                    credentialsProvider,
+                                    ClientConfiguration()
+                            )
+
+                    val expressionAttributeValues: Map<String, AttributeValue> = mapOf("user_id" to AttributeValue().withS(sessionId), "for_date" to AttributeValue().withS(LocalDate().toString()), "create" to AttributeValue().withS(weightCurrent.toString()), "target" to AttributeValue().withS(weightTarget.toString()))
+                    dbClient.putItem("weight_tracking", expressionAttributeValues)
+
+                } catch (e: java.lang.Exception) {
+                    e.printStackTrace()
+                }
+            }
+            thread.start()
+
+        } else {
+            showWarning(getString(R.string.appcard_invalid_values))
+        }
