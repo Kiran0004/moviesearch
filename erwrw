@@ -1,3 +1,27 @@
+Amplify.Auth.fetchAuthSession(
+                {
+                    val session = it as AWSCognitoAuthSession
+                    when (session.identityId.type) {
+                        AuthSessionResult.Type.SUCCESS -> {
+                            if (session.isSignedIn) {
+                            } else {
+                            }
+                            sessionId = session.identityId.value.toString()
+                            Log.i("AuthQuickStart", "IdentityId = ${session.identityId.value}")
+                        }
+                        AuthSessionResult.Type.FAILURE ->{
+                            sessionId = "20210606"
+                            Log.w(
+                                    "AuthQuickStart",
+                                    "IdentityId not found",
+                                    session.identityId.error
+                            )
+                        }
+                    }
+                },
+                { Log.e("AuthQuickStart", "Failed to fetch session", it) }
+        )
+
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
