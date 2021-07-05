@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/welcome_back"
+        android:textAppearance="@style/Title.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/identityId_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/identity_id_not_found"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next_button"
+        style="@style/Button"
+        app:layout_constraintTop_toBottomOf="@+id/targetWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="15dp"
+        android:visibility="gone"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Add Weight details"
+        android:textAllCaps="false"
+        app:cornerRadius="16dp"
+        android:textColor="@android:color/white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+--
+package com.iplato.awsamplifyauthentication
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.view.View
+import android.widget.Toast
+import com.amplifyframework.auth.cognito.AWSCognitoAuthSession
+import com.amplifyframework.auth.result.AuthSessionResult
+import com.amplifyframework.core.Amplify
+import kotlinx.android.synthetic.main.activity_main.*
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        supportActionBar?.hide()
+        fetchIdentityId()
+    }
+
+    private fun fetchIdentityId() {
+        Amplify.Auth.fetchAuthSession(
+            { result ->
+                val cognitoAuthSession = result as AWSCognitoAuthSession
+                when (cognitoAuthSession.identityId.type) {
+                    AuthSessionResult.Type.SUCCESS -> {
+                        next_button.visibility = View.VISIBLE
+                        next_button.setOnClickListener { callWeightScreen() }
+                        setIdentityId("IdentityId: " + cognitoAuthSession.identityId.value)
+                    }
+                    AuthSessionResult.Type.FAILURE -> {
+                        next_button.visibility = View.GONE
+                        showMessage("IdentityId not present because: " + cognitoAuthSession.identityId.error.toString())
+                    }
+                }
+            },
+            { error -> showMessage(error.toString()) }
+        )
+    }
+
+    private fun setIdentityId(identityId: String) {
+        Handler(Looper.getMainLooper()).post {
+            identityId_textview.text = identityId
+        }
+    }
+
+    private fun showMessage(message: String?) {
+        Handler(Looper.getMainLooper()).post {
+            next_button.visibility = View.GONE
+            Toast.makeText(applicationContext, message, Toast.LENGTH_LONG)
+                .show()
+        }
+    }
+
+    private fun callWeightScreen(){
+        val intent = Intent(this, GuestUserActivity::class.java)
+        startActivity(intent)
+    }
+
+}
