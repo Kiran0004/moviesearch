@@ -1,26 +1,123 @@
-val thread = Thread {
-                try {
-                    //Your code goes here
-                    val credentialsProvider = CognitoCachingCredentialsProvider(
-                            context, "us-east-2:68d07057-d1b6-4da4-8e35-876471a1bffd", Regions.US_EAST_2 // Region
-                    )
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 
-                    val dbClient: AmazonDynamoDBClient = Region.getRegion(Regions.US_EAST_2) // CRUCIAL
-                            .createClient(
-                                    AmazonDynamoDBClient::class.java,
-                                    credentialsProvider,
-                                    ClientConfiguration()
-                            )
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_app_new_background"
+        android:gravity="center"
+        android:paddingStart="@dimen/main_horizontal_margin"
+        android:paddingEnd="@dimen/main_horizontal_margin">
 
-                    val expressionAttributeValues: Map<String, AttributeValue> = mapOf("user_id" to AttributeValue().withS(sessionId), "for_date" to AttributeValue().withS(LocalDate().toString()), "create" to AttributeValue().withS(weightCurrent.toString()), "target" to AttributeValue().withS(weightTarget.toString()))
-                    dbClient.putItem("weight_tracking", expressionAttributeValues)
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/grid_one">
 
-                } catch (e: java.lang.Exception) {
-                    e.printStackTrace()
-                }
-            }
-            thread.start()
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/grid_two">
 
-        } else {
-            showWarning(getString(R.string.appcard_invalid_values))
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/grid_two"
+                    android:id="@+id/appointmentPopupImg"
+                    android:src="@drawable/ic_credentials_blue" />
+
+                <TextView
+                    android:id="@+id/appointmentPopUpTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/grid_two"
+                    android:gravity="center"
+                    android:textColor="@color/care_black"
+                    android:textSize="@dimen/main_font_large"
+                    android:textStyle="bold"
+                    tools:text="Coronavirus" />
+
+                <net.iplato.mygp.util.views.HtmlTextView
+                    android:id="@+id/appointmentPopUpBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/grid_two"
+                    android:gravity="center"
+                    android:textSize="@dimen/main_font_normal"
+                    tools:text="Lorem ipsum" />
+
+
+                <TextView
+                    android:id="@+id/appointmentPopUpUrl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/grid_two"
+                    android:gravity="center"
+                    android:textSize="@dimen/main_font_normal"
+                    android:textColor="@color/care_blue"
+                    tools:text="Please Call NHS 111"/>
+
+                <TextView
+                    android:id="@+id/btnAccept"
+                    style="@style/Form.V3.FloatingButton.DarkBlue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_dialog_ok" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
+
+---
+class DialogUtils {
+
+    companion object {
+        const val KEY_URL = "url"
+        @JvmStatic
+        fun showDialogOnGoingMaintenance(backendInterruption: BackendConfig.BackendInterruption?, context: Context) {
+            showOnGoingMaintenanceDialog(backendInterruption, context)
         }
+
+        private fun showOnGoingMaintenanceDialog(backendInterruption: BackendConfig.BackendInterruption?, context: Context) {
+
+            val dialogBuilder = AlertDialog.Builder(context, R.style.DialogTheme)
+            val inflater: LayoutInflater = LayoutInflater.from(context)
+            val dialogView = inflater.inflate(R.layout.fragment_appointment_popup, null)
+            dialogBuilder.setView(dialogView)
+            dialogView.appointmentPopUpTitle.text = backendInterruption?.title
+            val endTimeVal = backendInterruption?.endDateTime
+            val startTimeVal = backendInterruption?.startDateTime
+            var data: String? = backendInterruption?.messageHtml
+            data = data?.replace("<\\br>", "\n")
+            var span: SpannableString = SpannableString(data)
+            dialogView.appointmentPopUpBody.text = span
+            Linkify.addLinks(dialogView.appointmentPopUpBody, Linkify.ALL)
+            dialogView.appointmentPopUpUrl.text = backendInterruption?.topBtnTitle
+            dialogView.appointmentPopUpUrl.paintFlags = Paint.UNDERLINE_TEXT_FLAG
+            dialogView.appointmentPopUpUrl.setOnClickListener {
+                WebviewUtil.openDefaultBrowser(context, backendInterruption?.topBtnUrl)
+            }
+            dialogView.btnAccept.text = backendInterruption?.btnTitle
+            dialogView.btnAccept.setOnClickListener {
+                WebviewUtil.openDefaultBrowser(context, backendInterruption?.btnUrl)
+            }
+            val onGoingPopup: AlertDialog = dialogBuilder.create()
+            onGoingPopup.setCancelable(false)
+            onGoingPopup.show()
+            Handler().postDelayed({
+                onGoingPopup.dismiss()
+            }, (endTimeVal?.minus(startTimeVal!!))!! * 1000)
+        }
+}
+}
