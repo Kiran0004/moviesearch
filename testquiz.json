@@ -1,0 +1,14 @@
+{
+  "questionList":{
+    "question1":[
+      {
+        "id":1,
+        "question":"Who are you?",
+        "option1":"God",
+        "option2":"Dog",
+        "option3":"Human",
+        "answer":"God"
+      }
+      ]
+  }
+}
