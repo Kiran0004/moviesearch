@@ -3,11 +3,83 @@
     "question1":[
       {
         "id":1,
-        "question":"Who are you?",
-        "option1":"God",
-        "option2":"Dog",
-        "option3":"Human",
-        "answer":"God"
+        "question":"The Plaka is the oldest quarter of which city?",
+        "option1":"Athens",
+        "option2":"Prague",
+        "option3":"Rome",
+        "answer":"Athens"
+      },
+      {
+        "id":2,
+        "question":"What is an axolotl?",
+        "option1":" A type of mortice lock",
+        "option2":"A species of salamander",
+        "option3":"A nerve in the brain",
+        "answer":"A species of salamander"
+      },
+      {
+        "id":3,
+        "question":"The Panama Canal was officially opened by which US president??",
+        "option1":"Woodrow Wilson",
+        "option2":"Herbert Hoover",
+        "option3":"Calvin Coolidge",
+        "answer":"Woodrow Wilson"
+      },
+      {
+        "id":4,
+        "question":"In which opera did Maria Callas make her last appearance at Covent Garden?",
+        "option1":"Madame Butterfly",
+        "option2":"Carmen",
+        "option3":"Tosca",
+        "answer":"Tosca"
+      },
+      {
+        "id":5,
+        "question":"Which US city is located on the Maumee River at Lake Erie?",
+        "option1":"Detroit",
+        "option2":"Toledo",
+        "option3":"Cleveland",
+        "answer":"Toledo"
+      },
+      {
+        "id":6,
+        "question":"Which one is smallest ocean in the world?",
+        "option1":"Indian",
+        "option2":"Pacific",
+        "option3":"Arctic",
+        "answer":"Arctic"
+      },
+      {
+        "id":7,
+        "question":"In which country White elephant is found?",
+        "option1":"India",
+        "option2":"Srilanka",
+        "option3":"Thailand",
+        "answer":"Thailand"
+      },
+      {
+        "id":8,
+        "question":"Which country is known as playground of Europe?",
+        "option1":"Switzerland",
+        "option2":"Italy",
+        "option3":"Germany",
+        "answer":"Switzerland"
+      },
+      {
+        "id":9,
+        "question":"Total number of Oceans in the world is?",
+        "option1":"4",
+        "option2":"5",
+        "option3":"3",
+        "answer":"5"
+      },
+      {
+        "id":10,
+        "question":"Which one is the biggest Island in the world?",
+        "option1":"Finland",
+        "option2":"Sumatara",
+        "option3":"Greenland",
+        "answer":"Greenland"
       }
       ]
   }
