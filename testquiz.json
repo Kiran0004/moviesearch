@@ -80,6 +80,126 @@
         "option2":"Sumatara",
         "option3":"Greenland",
         "answer":"Greenland"
+      },
+      {
+        "id":11,
+        "question":"In Which ocean Bermuda Triangle region is located?",
+        "option1":"Atlantic",
+        "option2":"Pacific",
+        "option3":"Indian",
+        "answer":"Atlantic"
+      },
+      {
+        "id":12,
+        "question":"Which is the largest ocean in the world?",
+        "option1":"Pacific",
+        "option2":"Indian",
+        "option3":"Arctic",
+        "answer":"Pacific"
+      },
+      {
+        "id":13,
+        "question":"Which country first introduces bullet train?",
+        "option1":"France",
+        "option2":"Germany",
+        "option3":"Japan",
+        "answer":"Japan"
+      },
+      {
+        "id":14,
+        "question":"Lisbon is the capital of?",
+        "option1":"Portugal",
+        "option2":"Canada",
+        "option3":"Germany",
+        "answer":"Portugal"
+      },
+      {
+        "id":15,
+        "question":"Yen is the currency of which country?",
+        "option1":"South Korea",
+        "option2":"North Korea",
+        "option3":"Japan",
+        "answer":"Japan"
+      },
+      {
+        "id":16,
+        "question":"Sofia is the capital city of which country",
+        "option1":"Hungary",
+        "option2":"Poland",
+        "option3":"Bulgaria",
+        "answer":"Bulgaria"
+      },
+      {
+        "id":17,
+        "question":"International Women's day celebrated on?",
+        "option1":"8th March",
+        "option2":"6th Sept",
+        "option3":"4th April",
+        "answer":"8th March"
+      },
+      {
+        "id":18,
+        "question":"La Paz is the capital of?",
+        "option1":"Bolivia",
+        "option2":"Brazil",
+        "option3":"Chile",
+        "answer":"Bolivia"
+      },
+      {
+        "id":19,
+        "question":"Sultan Ahmed Mosque is located in?",
+        "option1":"Macca",
+        "option2":"Karachi",
+        "option3":"Istanbul",
+        "answer":"Istanbul"
+      },
+      {
+        "id":20,
+        "question":"Krone is the currency of?",
+        "option1":"Finland",
+        "option2":"Denmark",
+        "option3":"Greece",
+        "answer":"Denmark"
+      },
+      {
+        "id":21,
+        "question":"Rand is the currency of?",
+        "option1":"South Africa",
+        "option2":"Iran",
+        "option3":"Romania",
+        "answer":"South Africa"
+      },
+      {
+        "id":22,
+        "question":"Which is the largest producer of cotton?",
+        "option1":"China",
+        "option2":"India",
+        "option3":"Nepal",
+        "answer":"India"
+      },
+      {
+        "id":23,
+        "question":"Which was the first country to introduce VAT?",
+        "option1":"France",
+        "option2":"England",
+        "option3":"USA",
+        "answer":"France"
+      },
+      {
+        "id":24,
+        "question":"Vietnam war ended in the year?",
+        "option1":"1975",
+        "option2":"1967",
+        "option3":"1962",
+        "answer":"1975"
+      },
+      {
+        "id":25,
+        "question":"Capital of Norway?",
+        "option1":"Bergen",
+        "option2":"Oslo",
+        "option3":"Stavanger",
+        "answer":"Oslo"
       }
       ]
   }
