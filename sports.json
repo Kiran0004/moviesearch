@@ -1,0 +1,54 @@
+{
+  "questionList":{
+    "question1":[
+      {
+        "id":1,
+        "question":"Phil Mickelson became the oldest sportsperson to win a major championship in which sports?",
+        "option1":"Tennis",
+        "option2":"Squash",
+        "option3":"Golf",
+        "answer":"Golf"
+      },
+      {
+        "id":2,
+        "question":"Who is the winner of the women’s title of French Open tournament 2021?",
+        "option1":"Barbora Krejcikova",
+        "option2":"Naomi Osaka",
+        "option3":"Jennifer Brady",
+        "answer":"Barbora Krejcikova"
+      },
+      {
+        "id":3,
+        "question":"Which country won the inaugural ICC World Test Championship (WTC)?",
+        "option1":"New Zealand",
+        "option2":"England",
+        "option3":"Australia",
+        "answer":"New Zealand"
+      },
+      {
+        "id":4,
+        "question":"Which racing driver won the Formula One Belgian Grandprix Tournament?",
+        "option1":"Lewis Hamilton",
+        "option2":"Max Verstappen",
+        "option3":"Sebastien Vettel",
+        "answer":"Max Verstappen"
+      },
+      {
+        "id":5,
+        "question":"What is the motto of the 2022 Winter Olympics and Paralympics?",
+        "option1":"Together For a Shared Future",
+        "option2":"Inclusive and Strong",
+        "option3":"Sustainable Growth",
+        "answer":"Together For a Shared Future"
+      },
+      {
+        "id":6,
+        "question":"Garbine Muguruza, who won her first WTA Finals title recently, is from which country?",
+        "option1":"Spain",
+        "option2":"France",
+        "option3":"USA",
+        "answer":"Spain"
+      }
+      ]
+  }
+}
