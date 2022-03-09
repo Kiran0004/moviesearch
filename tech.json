@@ -1,0 +1,86 @@
+{
+  "questionList":{
+    "question1":[
+      {
+        "id":1,
+        "question":"Who founded Apple Computer?",
+        "option1":"Stephen Fry",
+        "option2":"Bill Gates",
+        "option3":"Steve Jobs",
+        "answer":"Steve Jobs"
+      },
+      {
+        "id":2,
+        "question":"Which of these is not a peripheral, in computer terms?",
+        "option1":"Motherboard",
+        "option2":"Keyboard",
+        "option3":"Mouse",
+        "answer":"Motherboard"
+      },
+      {
+        "id":3,
+        "question":"What does the Internet prefix WWW stand for?",
+        "option1":"Wide Width Wickets",
+        "option2":"Worldwide Weather",
+        "option3":"World Wide Web",
+        "answer":"World Wide Web"
+      },
+      {
+        "id":4,
+        "question":"When did the compact disc first appear on the market?",
+        "option1":"1982",
+        "option2":"1983",
+        "option3":"1985",
+        "answer":"1982"
+      },
+      {
+        "id":5,
+        "question":"Which of these is a file format for digital images?",
+        "option1":"CIA",
+        "option2":"JPG",
+        "option3":"IBM",
+        "answer":"JPG"
+      },
+      {
+        "id":6,
+        "question":"What is SMTP stands for?",
+        "option1":"Simple Mail Transfer Protocol",
+        "option2":"Simple Messege Transfer Protocol",
+        "option3":"Sample Mail Transfer Protocol",
+        "answer":"Simple Mail Transfer Protocol"
+      },
+      {
+        "id":7,
+        "question":"What is VPN stands for?",
+        "option1":"Virtual Personal Network",
+        "option2":"Virtual Private Network",
+        "option3":"Visual Private Network",
+        "answer":"Virtual Private Network"
+      },
+      {
+        "id":8,
+        "question":".xls is a file extension used in which application?",
+        "option1":"Ms Excel",
+        "option2":"Ms Office",
+        "option3":"Ms Powerpoint",
+        "answer":"Ms Excel"
+      },
+      {
+        "id":9,
+        "question":"Which is not a web browser?",
+        "option1":"Chrome",
+        "option2":"Safari",
+        "option3":"Gmail",
+        "answer":"Gmail"
+      },
+      {
+        "id":10,
+        "question":"What is the full form of UPS?",
+        "option1":"Uninterruptible Power Supply.",
+        "option2":"Uninterruptible Program Supply.",
+        "option3":"Uniform Power Supply.",
+        "answer":"Uninterruptible Power Supply."
+      }
+      ]
+  }
+}
