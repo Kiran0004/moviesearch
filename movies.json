@@ -1,0 +1,86 @@
+{
+  "questionList":{
+    "question1":[
+      {
+        "id":1,
+        "question":"Who directed the movie Edward Scissorhands?",
+        "option1":"Tim Burton",
+        "option2":"James Cameron",
+        "option3":"Steve Madden",
+        "answer":"Tim Burton"
+      },
+      {
+        "id":2,
+        "question":"Which franchise has the most movies?",
+        "option1":"Marvel",
+        "option2":"SONY",
+        "option3":"Cine World",
+        "answer":"Marvel"
+      },
+      {
+        "id":3,
+        "question":"Which actor played Patrick Bateman in American Psycho?",
+        "option1":"Samuel Jackson",
+        "option2":"Tom Hanks",
+        "option3":"Christian Bale",
+        "answer":"Christian Bale"
+      },
+      {
+        "id":4,
+        "question":"Which actress played Sue Ann in Ma?",
+        "option1":"Octavia Spencer",
+        "option2":"Anya Taylor",
+        "option3":"Emma Stone",
+        "answer":"Octavia Spencer"
+      },
+        {
+        "id":5,
+        "question":"Which actress played Megan in Bridesmaids?",
+        "option1":"Michelle Pfeliffer",
+        "option2":"Melissa McCarthy",
+        "option3":"Emma Stone",
+        "answer":"Melissa McCarthy"
+      },
+      {
+        "id":6,
+        "question":"Which actor played Henry Hill in the film Goodfellas?",
+        "option1":"Tom Cruise",
+        "option2":"Robert Englund",
+        "option3":"Ray Liotta",
+        "answer":"Ray Liotta"
+      },
+      {
+        "id":7,
+        "question":"Which actor played Ronald Weasely in the Harry Potter films?",
+        "option1":"Rupert Grint",
+        "option2":"Richard Gere",
+        "option3":"Ray Liotta",
+        "answer":"Rupert Grint"
+      },
+      {
+        "id":8,
+        "question":"Which actress played Sister Mary Clarence in Sister Act?",
+        "option1":"Whoopi Goldberg",
+        "option2":"Kathy Najimy",
+        "option3":"Michelle Williams",
+        "answer":"Whoopi Goldberg"
+      },
+      {
+        "id":9,
+        "question":"What does the J. K. stand for in J. K. Rowling?",
+        "option1":"Joanne Kathleen",
+        "option2":"James Kathleen",
+        "option3":"Jhones Kathleen",
+        "answer":"Joanne Kathleen"
+      },
+      {
+        "id":10,
+        "question":"What is the name of the Acromantula owned by Rubeus Hagrid?",
+        "option1":"Aragog",
+        "option2":"Bonnie Wright",
+        "option3":"Death Eaters",
+        "answer":"Aragog"
+      }
+      ]
+  }
+}
