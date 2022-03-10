@@ -1,0 +1,86 @@
+{
+  "questionList":{
+    "question1":[
+      {
+        "id":1,
+        "question":"In which month of 1914 did the First World War begin?",
+        "option1":"May",
+        "option2":"June",
+        "option3":"July",
+        "answer":"July"
+      },
+      {
+        "id":2,
+        "question":"In what year was the Russian Revolution?",
+        "option1":"1917",
+        "option2":"1918",
+        "option3":"1918",
+        "answer":"1918"
+      },
+      {
+        "id":3,
+        "question":"Which Roman emperor declared war on Neptune, God of the sea?",
+        "option1":"Caligula",
+        "option2":"Robert",
+        "option3":"Thomas",
+        "answer":"Caligula"
+      },
+      {
+        "id":4,
+        "question":"Who assassinated Abraham Lincoln?",
+        "option1":"James Williamson",
+        "option2":"John Wilkes Booth",
+        "option3":"Peter Fred",
+        "answer":"John Wilkes Booth"
+      },
+      {
+        "id":5,
+        "question":"Who was the world’s first woman Prime Minister?",
+        "option1":"Sirimavo Bandaranaike",
+        "option2":"Indira Gandhi",
+        "option3":"Golda Meir",
+        "answer":"Sirimavo Bandaranaike"
+      },
+      {
+        "id":6,
+        "question":"Who was the world’s first woman Prime Minister?",
+        "option1":"Sirimavo Bandaranaike",
+        "option2":"Indira Gandhi",
+        "option3":"Golda Meir",
+        "answer":"Sirimavo Bandaranaike"
+      },
+      {
+        "id":7,
+        "question":"Who became Prime Minister of Britain in 1916?",
+        "option1":"Woodrow Wilson",
+        "option2":"Georges Clemenceau",
+        "option3":"David Lloyd George",
+        "answer":"David Lloyd George"
+      },
+      {
+        "id":8,
+        "question":"Which is the highest mountain in the world?",
+        "option1":"Mount Everest",
+        "option2":"Cuzco",
+        "option3":"Mercedario",
+        "answer":"Mount Everest"
+      },
+      {
+        "id":9,
+        "question":"What year was the golden age of piracy?",
+        "option1":"1630 - 1750s",
+        "option2":"1560 - 1630s",
+        "option3":"1650 - 1730s",
+        "answer":"1650 - 1730s"
+      },
+      {
+        "id":10,
+        "question":"Which member of the British royal family was murdered by the IRA in 1979?",
+        "option1":"Lord Mountbatten",
+        "option2":"King George I",
+        "option3":"King James VI",
+        "answer":"Lord Mountbatten"
+      }
+      ]
+  }
+}
