@@ -1,0 +1,86 @@
+{
+  "questionList":{
+    "question1":[
+      {
+        "id":1,
+        "question":"From the 16th century onward, the speed of a ship was measured by what English invention?",
+        "option1":"Recorder",
+        "option2":"Knot",
+        "option3":"Log",
+        "answer":"Log"
+      },
+      {
+        "id":2,
+        "question":"Which shadow clock consists of a straight base with a raised crosspiece at one end?",
+        "option1":"Sundial",
+        "option2":"Timeball",
+        "option3":"Astrolable",
+        "answer":"Sundial"
+      },
+      {
+        "id":3,
+        "question":"What can you call a heavy snow that is not quite a blizzard?",
+        "option1":"Skift",
+        "option2":"Onding",
+        "option3":"Sleet",
+        "answer":"Skift"
+      },
+      {
+        "id":4,
+        "question":"Which of these words refers to ice newly formed in cracks, holes, or surface puddles of other ice?",
+        "option1":"Glimmer",
+        "option2":"Cerise",
+        "option3":"Tortoni",
+        "answer":"Glimmer"
+      },
+      {
+        "id":5,
+        "question":"Who invented electric light bulb?",
+        "option1":"Bell",
+        "option2":"Edison",
+        "option3":"Newton",
+        "answer":"Edison"
+      },
+      {
+        "id":6,
+        "question":"In which century bicycle invented?",
+        "option1":"1600s",
+        "option2":"1800s",
+        "option3":"1700s",
+        "answer":"1800s"
+      },
+      {
+        "id":7,
+        "question":"Who invented telephone?",
+        "option1":"Alexandar Graham Bell",
+        "option2":"Benjiman Franklin",
+        "option3":"Michael Faradey",
+        "answer":"Alexandar Graham Bell"
+      },
+      {
+        "id":8,
+        "question":"Which of these is an instrument that makes distant objects appear bigger?",
+        "option1":"Battery",
+        "option2":"Telescope",
+        "option3":"Microphone",
+        "answer":"Telescope"
+      },
+      {
+        "id":9,
+        "question":"What were the first steam engines used for?",
+        "option1":"Powering tractors",
+        "option2":"Driving trains",
+        "option3":"Pumping water out of mines",
+        "answer":"Pumping water out of mines"
+      },
+      {
+        "id":10,
+        "question":"What were the world's first wheels used for?",
+        "option1":"In toys",
+        "option2":"To pull carts",
+        "option3":"To help potters shape clay",
+        "answer":"To help potters shape clay"
+      }
+      ]
+  }
+}
