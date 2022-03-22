@@ -1,806 +1,166 @@
 {
-  "questionList":{
-    "question1":[
+  "questionList": {
+    "question1": [
       {
         "id":1,
-        "question":"The Plaka is the oldest quarter of which city?",
-        "option1":"Athens",
-        "option2":"Prague",
-        "option3":"Rome",
-        "answer":"Athens"
+        "answer": "Rowan Atkinson",
+        "question": "Who played Mr.Bean character?",
+        "option1": "William Charle",
+        "option2": "Rowan Atkinson",
+        "option3":"William Atkinson"
       },
       {
-        "id":2,
-        "question":"What is an axolotl?",
-        "option1":" A type of mortice lock",
-        "option2":"A species of salamander",
-        "option3":"A nerve in the brain",
-        "answer":"A species of salamander"
+            "id":2,
+        "answer": "Gene Deitch",
+        "question": "Who is the creator for Tom & Jerry?",
+        "option1": "Gene Deitch",
+        "option2": "John Williams",
+        "option3":"Steven James"
       },
       {
-        "id":3,
-        "question":"The Panama Canal was officially opened by which US president??",
-        "option1":"Woodrow Wilson",
-        "option2":"Herbert Hoover",
-        "option3":"Calvin Coolidge",
-        "answer":"Woodrow Wilson"
+            "id":3,
+        "answer": "23",
+        "question": "How many years of uninterrupted Run was completed For DDLJ Movie in Maratha Mandir,Mumbai?",
+        "option1": "23",
+        "option2": "25",
+        "option3":"24"
       },
       {
-        "id":4,
-        "question":"In which opera did Maria Callas make her last appearance at Covent Garden?",
-        "option1":"Madame Butterfly",
-        "option2":"Carmen",
-        "option3":"Tosca",
-        "answer":"Tosca"
+            "id":4,
+        "answer": "Best Actor",
+        "question": "Joaquin Phoenix was awarded for Which category in Academy Awards?",
+        "option1": "Best Actor",
+        "option2": "Best Director",
+        "option3":"Best Writer"
       },
       {
         "id":5,
-        "question":"Which US city is located on the Maumee River at Lake Erie?",
-        "option1":"Detroit",
-        "option2":"Toledo",
-        "option3":"Cleveland",
-        "answer":"Toledo"
+        "answer": "A.R.Rahman",
+        "question": "Who composed music for SlumDog Millionaire?",
+        "option1": "A.R.Rahman",
+        "option2": "Chris Dickens",
+        "option3":"Jameson"
       },
       {
-        "id":6,
-        "question":"Which one is smallest ocean in the world?",
-        "option1":"Indian",
-        "option2":"Pacific",
-        "option3":"Arctic",
-        "answer":"Arctic"
+            "id":6,
+        "answer": "India",
+        "question": "A.R.Rahman is from which country?",
+        "option1": "Srilanka",
+        "option2": "India",
+        "option3":"Nepal"
       },
+      
       {
-        "id":7,
-        "question":"In which country White elephant is found?",
-        "option1":"India",
-        "option2":"Srilanka",
-        "option3":"Thailand",
-        "answer":"Thailand"
+            "id":7,
+        "answer": "Spain",
+        "question": "In which Country the largest movie theatere in the world was located?",
+        "option1": "Spain",
+        "option2": "France",
+        "option3":"Italy"
       },
       {
         "id":8,
-        "question":"Which country is known as playground of Europe?",
-        "option1":"Switzerland",
-        "option2":"Italy",
-        "option3":"Germany",
-        "answer":"Switzerland"
+        "answer": "Avengers:EndGame",
+        "question": "World Best Movie in 2019 is?",
+        "option1": "Parasite",
+        "option2": "Avengers:EndGame",
+        "option3":"Spiderman"
       },
       {
-        "id":9,
-        "question":"Total number of Oceans in the world is?",
-        "option1":"4",
-        "option2":"5",
-        "option3":"3",
-        "answer":"5"
+            "id":9,
+        "answer": "Walt Disney",
+        "question": "Who is the producer of Avengers:EndGame?",
+        "option1": "Walt Disney",
+        "option2": "Fox Entertainments",
+        "option3":"Sony"
       },
       {
-        "id":10,
-        "question":"Which one is the biggest Island in the world?",
-        "option1":"Finland",
-        "option2":"Sumatara",
-        "option3":"Greenland",
-        "answer":"Greenland"
+            "id":10,
+        "answer": "American Film Studio",
+        "question": "Walt Disney studios is an?",
+        "option1": "American Film Studio",
+        "option2": "British Film Studio",
+        "option3" : "German Film Studio"
       },
       {
-        "id":11,
-        "question":"In Which ocean Bermuda Triangle region is located?",
-        "option1":"Atlantic",
-        "option2":"Pacific",
-        "option3":"Indian",
-        "answer":"Atlantic"
+            "id":11,
+        "answer": "Leonardo Dicaprio",
+        "question": "Who acted in Titanic as Jack?",
+        "option1": "Leonardo Dicaprio",
+        "option2": "Billy Zane",
+        "option3":"Moore"
       },
       {
-        "id":12,
-        "question":"Which is the largest ocean in the world?",
-        "option1":"Pacific",
-        "option2":"Indian",
-        "option3":"Arctic",
-        "answer":"Pacific"
+            "id":12,
+        "answer": "Rose",
+        "question": "Which character was played by Kate Winslet in Titanic Film?",
+        "option3": "Rose",
+        "option1":"Tulip",
+        "option2": "Lilly"
       },
       {
-        "id":13,
-        "question":"Which country first introduces bullet train?",
-        "option1":"France",
-        "option2":"Germany",
-        "option3":"Japan",
-        "answer":"Japan"
+            "id":13,
+        "answer": "James Cameron",
+        "question": "Who Directed the Titanic Film?",
+        "option1": "James Cameron",
+        "option2": "Terence Davies",
+        "option3":"Danny Cannon"
       },
       {
         "id":14,
-        "question":"Lisbon is the capital of?",
-        "option1":"Portugal",
-        "option2":"Canada",
-        "option3":"Germany",
-        "answer":"Portugal"
+        "answer": "1997",
+        "question": "In which year Titanic Movie was Released?",
+        "option1": "1997",
+        "option2": "1998",
+        "option3":"1996"
       },
       {
         "id":15,
-        "question":"Yen is the currency of which country?",
-        "option1":"South Korea",
-        "option2":"North Korea",
-        "option3":"Japan",
-        "answer":"Japan"
+        "answer": "7",
+        "question": "How many series of Harry Potter books were published?",
+        "option1": "8",
+        "option2": "7",
+        "option3":"6"
       },
       {
         "id":16,
-        "question":"Sofia is the capital city of which country",
-        "option1":"Hungary",
-        "option2":"Poland",
-        "option3":"Bulgaria",
-        "answer":"Bulgaria"
+        "answer": "J.K.Rowling",
+        "question": "Who is the Author of Harry Potter?",
+        "option1": "J.K.Rowling",
+        "option2": "Chris Columbus",
+        "option3":"Basil Dean"
       },
       {
         "id":17,
-        "question":"International Women's day celebrated on?",
-        "option1":"8th March",
-        "option2":"6th Sept",
-        "option3":"4th April",
-        "answer":"8th March"
+        "answer": "Railway",
+        "question": "Which Harry Potter Bridge was located in Scotland?",
+        "option1": "Railway",
+        "option2": "Millenium",
+        "option3":"Heaven Bridge"
       },
       {
         "id":18,
-        "question":"La Paz is the capital of?",
-        "option1":"Bolivia",
-        "option2":"Brazil",
-        "option3":"Chile",
-        "answer":"Bolivia"
+        "answer": "Harry Potter",
+        "question": "The Philiosopher's Stone book was belongs to which series?",
+        "option1": "Harry Potter",
+        "option2": "parasite",
+        "option3":"Avatar"
       },
       {
         "id":19,
-        "question":"Sultan Ahmed Mosque is located in?",
-        "option1":"Macca",
-        "option2":"Karachi",
-        "option3":"Istanbul",
-        "answer":"Istanbul"
+        "answer": "Reginald Dwight",
+        "question": "What is Elton John's real name?",
+        "option1": "Reginald Dwight",
+        "option2": "Regiland Dwighet",
+        "option3": "Bill Douglas"
       },
       {
         "id":20,
-        "question":"Krone is the currency of?",
-        "option1":"Finland",
-        "option2":"Denmark",
-        "option3":"Greece",
-        "answer":"Denmark"
-      },
-      {
-        "id":21,
-        "question":"Rand is the currency of?",
-        "option1":"South Africa",
-        "option2":"Iran",
-        "option3":"Romania",
-        "answer":"South Africa"
-      },
-      {
-        "id":22,
-        "question":"Which is the largest producer of cotton?",
-        "option1":"China",
-        "option2":"India",
-        "option3":"Nepal",
-        "answer":"India"
-      },
-      {
-        "id":23,
-        "question":"Which was the first country to introduce VAT?",
-        "option1":"France",
-        "option2":"England",
-        "option3":"USA",
-        "answer":"France"
-      },
-      {
-        "id":24,
-        "question":"Vietnam war ended in the year?",
-        "option1":"1975",
-        "option2":"1967",
-        "option3":"1962",
-        "answer":"1975"
-      },
-      {
-        "id":25,
-        "question":"Capital of Norway?",
-        "option1":"Bergen",
-        "option2":"Oslo",
-        "option3":"Stavanger",
-        "answer":"Oslo"
-      },
-      {
-        "id":26,
-        "question":"Capital of Cameroon?",
-        "option1":"Asmara",
-        "option2":"Khartoum",
-        "option3":"Yaoundé",
-        "answer":"Yaoundé"
-      },
-      {
-        "id":27,
-        "question":"Capital of Samoa?",
-        "option1":"Apia",
-        "option2":"Gitega",
-        "option3":"Funafuti",
-        "answer":"Apia"
-      },
-      {
-        "id":28,
-        "question":"Capital of Sweden?",
-        "option1":"Tripoli",
-        "option2":"Kyiv",
-        "option3":"Stockholm",
-        "answer":"Stockholm"
-      },
-      {
-        "id":29,
-        "question":"Capital of Belize?",
-        "option1":"Belmopan",
-        "option2":"Caracas",
-        "option3":"Georgetown",
-        "answer":"Belmopan"
-      },
-      {
-        "id":30,
-        "question":"Capital of Cambodia?",
-        "option1":"Phnom Penh",
-        "option2":"Oslo",
-        "option3":"Beijing",
-        "answer":"Phnom Penh"
-      },
-      {
-        "id":31,
-        "question":"Capital of Burundi?",
-        "option1":"Gitega",
-        "option2":"Maseru",
-        "option3":"Libreville",
-        "answer":"Gitega"
-      },
-      {
-        "id":32,
-        "question":"Capital of Slovenia?",
-        "option1":"Nicosia",
-        "option2":"Bangui",
-        "option3":"Ljubljana",
-        "answer":"Ljubljana"
-      },
-      {
-        "id":33,
-        "question":"Capital of China?",
-        "option1":"Beijing",
-        "option2":"Manila",
-        "option3":"Dhaka",
-        "answer":"Beijing"
-      },
-      {
-        "id":34,
-        "question":"Capital of Monaco?",
-        "option1":"Kigali",
-        "option2":"Kyiv",
-        "option3":"Monaco",
-        "answer":"Monaco"
-      },
-      {
-        "id":35,
-        "question":"Capital of Kenya?",
-        "option1":"Nairobi",
-        "option2":"Kampala",
-        "option3":"Gitega",
-        "answer":"Nairobi"
-      },
-      {
-        "id":36,
-        "question":"Capital of Russia?",
-        "option1":"Dodoma",
-        "option2":"Moscow",
-        "option3":"Dili",
-        "answer":"Moscow"
-      },
-      {
-        "id":37,
-        "question":"Capital of Bahamas?",
-        "option1":"Nassau",
-        "option2":"Praia",
-        "option3":"Castries",
-        "answer":"Nassau"
-      },
-      {
-        "id":38,
-        "question":"Capital of Gambia?",
-        "option1":"Niamey",
-        "option2":"Maputo",
-        "option3":"Banjul",
-        "answer":"Banjul"
-      },
-      {
-        "id":39,
-        "question":"Capital of Chile?",
-        "option1":"Santiago",
-        "option2":"Brasilia",
-        "option3":"Yerevan",
-        "answer":"Santiago"
-      },
-      {
-        "id":40,
-        "question":"Capital of Kosovo?",
-        "option1":"Skopje",
-        "option2":"Pristina",
-        "option3":"Yerevan",
-        "answer":"Pristina"
-      },
-      {
-        "id":41,
-        "question":"The Rolex Zenith Daytona is what type of accessory worn on the human body?",
-        "option1":"Watch",
-        "option2":"Ring",
-        "option3":"Shirt",
-        "answer":"Watch"
-      },
-      {
-        "id":42,
-        "question":"The Portuguese dish Caldo Verde is predominantly which colour?",
-        "option1":"Green",
-        "option2":"Red",
-        "option3":"Blue",
-        "answer":"Green"
-      },
-      {
-        "id":43,
-        "question":"Digbeth and Edgbaston are suburbs of which British city?",
-        "option1":"Wales",
-        "option2":"Birmingham",
-        "option3":"Luton",
-        "answer":"Birmingham"
-      },
-      {
-        "id":44,
-        "question":"Which South American country gained independence from Spain in 1821?",
-        "option1":"Peru",
-        "option2":"Ghana",
-        "option3":"Yukon",
-        "answer":"Peru"
-      },
-      {
-        "id":45,
-        "question":"What is the capital of the province of Nova Scotia, Canada?",
-        "option1":"Sydney",
-        "option2":"Halifax",
-        "option3":"Glace Bay",
-        "answer":"Halifax"
-      },
-      {
-        "id":46,
-        "question":"Where is the TV series Ally McBeal set?",
-        "option1":"Boston",
-        "option2":"New York",
-        "option3":"Los Angeles",
-        "answer":"Boston"
-      },
-      {
-        "id":47,
-        "question":"Which city's bid to hold the 2012 Olympics came second to London's?",
-        "option1":"Hamburg",
-        "option2":"Paris",
-        "option3":"Tokyo",
-        "answer":"Paris"
-      },
-      {
-        "id":47,
-        "question":"Name the Coffee shop in US sitcom Friends?",
-        "option1":"Central Perk",
-        "option2":"Central Park",
-        "option3":"Park Central",
-        "answer":"Central Perk"
-      },
-      {
-        "id":48,
-        "question":"What is the smallest planet in our solar system?",
-        "option1":"Jupiter",
-        "option2":"Pluto",
-        "option3":"Mercury",
-        "answer":"Mercury"
-      },
-      {
-        "id":49,
-        "question":"In which European country would you find the Rijksmuseum?",
-        "option1":"Netherlands",
-        "option2":"Spain",
-        "option3":"Sweden",
-        "answer":"Netherlands"
-      },
-      {
-        "id":50,
-        "question":"Which planet looks reddish in the night sky?",
-        "option1":"Mars",
-        "option2":"Jupiter",
-        "option3":"Pluto",
-        "answer":"Mars"
-      },
-      {
-        "id":51,
-        "question":"Which country lies directly to the east of Iraq?",
-        "option1":"Kuwait",
-        "option2":"Iran",
-        "option3":"Syria",
-        "answer":"Iran"
-      },
-      {
-        "id":52,
-        "question":"Sachin Tendulkar scored his 100th international century against which’ country?",
-        "option1":"England",
-        "option2":"Srilanka",
-        "option3":"Bangladesh",
-        "answer":"Bangladesh"
-      },
-      {
-        "id":53,
-        "question":"Which country is the world’s leading producer of olives and grapes?",
-        "option1":"India",
-        "option2":"Italy",
-        "option3":"USA",
-        "answer":"Italy"
-      },
-      {
-        "id":54,
-        "question":"Which legal term indicates pledging of properties?",
-        "option1":"Sell",
-        "option2":"Mortgage",
-        "option3":"Let",
-        "answer":"Mortgage"
-      },
-      {
-        "id":55,
-        "question":"Which street divides New York City’s East Side and West Side?",
-        "option1":"Fifth Avenue",
-        "option2":"Sixth Avenue",
-        "option3":"Third Avenue",
-        "answer":"Fifth Avenue"
-      },
-      {
-        "id":56,
-        "question":"In which country did the Baha’i religion originate?",
-        "option1":"Iran",
-        "option2":"Iraq",
-        "option3":"Kuwait",
-        "answer":"Iran"
-      },
-      {
-        "id":57,
-        "question":"Which district of London gave its name to the Prime Meridian?",
-        "option1":"Greenwich",
-        "option2":"Barnet",
-        "option3":"Ealing",
-        "answer":"Greenwich"
-      },
-      {
-        "id":58,
-        "question":"Which country lies adjacent to the Andaman Sea?",
-        "option1":"Nepal",
-        "option2":"Burma",
-        "option3":"Japan",
-        "answer":"Burma"
-      },
-      {
-        "id":59,
-        "question":"Who is known as Priyadarshini?",
-        "option1":"Sarojini Naidu",
-        "option2":"Sonia Gandhi",
-        "option3":"Indira Gandhi",
-        "answer":"Indira Gandhi"
-      },
-      {
-        "id":60,
-        "question":"Which is the country in the British Isles is said to have the highest density of sheep in the world?",
-        "option1":"Wales",
-        "option2":"Buckinghamshire",
-        "option3":"Briton",
-        "answer":"Wales"
-      },
-      {
-        "id":61,
-        "question":"Where is the Gulf of Carpentaria?",
-        "option1":"Poland",
-        "option2":"New Zealand",
-        "option3":"Australia",
-        "answer":"Australia"
-      },
-      {
-        "id":62,
-        "question":"What is the Currency of Barbados?",
-        "option1":"Barbadian dollar",
-        "option2":"Euro",
-        "option3":"Pound",
-        "answer":"Barbadian dollar"
-      },
-      {
-        "id":63,
-        "question":"Where is the biggest and world-famous museum located?",
-        "option1":"London",
-        "option2":"New York",
-        "option3":"Paris",
-        "answer":"Paris"
-      },
-      {
-        "id":64,
-        "question":"How much is the percentage of carbon in average chemical structure of the hair?",
-        "option1":"50.65%",
-        "option2":"50.56%",
-        "option3":"56.05%",
-        "answer":"50.65%"
-      },
-      {
-        "id":65,
-        "question":"Which is the element found on the surface of the moon?",
-        "option1":"Gold",
-        "option2":"Titanium",
-        "option3":"Silver",
-        "answer":"Titanium"
-      },
-      {
-        "id":66,
-        "question":"Why is Beaufort Scale used?",
-        "option1":"To measure wind velocity",
-        "option2":"To measure water density",
-        "option3":"To measure air pressure",
-        "answer":"To measure wind velocity"
-      },
-      {
-        "id":67,
-        "question":"Which Tomar ruler is credited to have established Delhi?",
-        "option1":"Akbar",
-        "option2":"Anangpal",
-        "option3":"Ashoka",
-        "answer":"Anangpal"
-      },
-      {
-        "id":68,
-        "question":"My Music, My Life is the autobiography of which person?",
-        "option1":"Pt.Ravi Shankar",
-        "option2":"Pt.Jaya Shankar",
-        "option3":"Pt.Kumar Shankar",
-        "answer":"Pt.Ravi Shankar"
-      },
-      {
-        "id":69,
-        "question":"Which was the first talkie film of India?",
-        "option1":"Dil se",
-        "option2":"Alam Ara",
-        "option3":"Mayabazar",
-        "answer":"Alam Ara"
-      },
-      {
-        "id":70,
-        "question":"Which former house painter began the Cubist movement with Picasso?",
-        "option1":"Braque",
-        "option2":"Phillip",
-        "option3":"Mossen",
-        "answer":"Braque"
-      },
-      {
-        "id":71,
-        "question":"How many cities are there in Northern Ireland?",
-        "option1":"Four",
-        "option2":"Two",
-        "option3":"Three",
-        "answer":"Four"
-      },
-      {
-        "id":72,
-        "question":"What kind of energy did Blondie sing about?",
-        "option1":"Dynamic",
-        "option2":"Kinetic",
-        "option3":"Atomc",
-        "answer":"Atomic"
-      },
-      {
-        "id":73,
-        "question":"Folk painting Madhubani is famous in which state?",
-        "option1":"Bihar",
-        "option2":"Assam",
-        "option3":"Bengal",
-        "answer":"Bihar"
-      },
-      {
-        "id":74,
-        "question":"Which country is the largest producer of Bauxite?",
-        "option1":"USA",
-        "option2":"Japan",
-        "option3":"Australia",
-        "answer":"Australia"
-      },
-      {
-        "id":75,
-        "question":"What would be the colour of the blood which bleed from the artery?",
-        "option1":"Red",
-        "option2":"Blue",
-        "option3":"Strong Red",
-        "answer":"Strong Red"
-      },
-      {
-        "id":76,
-        "question":"What was the first name of Clark, of the Lewis & Clark expedition?",
-        "option1":"William",
-        "option2":"James",
-        "option3":"Thomas",
-        "answer":"William"
-      },
-      {
-        "id":77,
-        "question":"The Postal system in India dates back to the year?",
-        "option1":"1847",
-        "option2":"1837",
-        "option3":"1857",
-        "answer":"1837"
-      },
-      {
-        "id":78,
-        "question":"In which animal is respiration done by skin?",
-        "option1":"Ant",
-        "option2":"Dog",
-        "option3":"Frog",
-        "answer":"Frog"
-      },
-      {
-        "id":79,
-        "question":"The Ruhr-Westphalia region is a famous industrial region of which country",
-        "option1":"Germany",
-        "option2":"Italy",
-        "option3":"Poland",
-        "answer":"Germany"
-      },
-      {
-        "id":80,
-        "question":"Which European country has been ruled by Harald V since 1991?",
-        "option1":"Germany",
-        "option2":"Norway",
-        "option3":"Poland",
-        "answer":"Norway"
-      },
-      {
-        "id":81,
-        "question":"‘Gobar gas’ contains mainly which gas?",
-        "option1":"Hydrogen",
-        "option2":"Ethane",
-        "option3":"Methane",
-        "answer":"Methane"
-      },
-      {
-        "id":82,
-        "question":"A temperature at which both the Fahrenheit and the centigrade scales have the same value?",
-        "option1":"-40",
-        "option2":"-50",
-        "option3":"-30",
-        "answer":"-40"
-      },
-      {
-        "id":83,
-        "question":"How many chemical components does coffee consist of?",
-        "option1":"1898",
-        "option2":"1800",
-        "option3":"1858",
-        "answer":"1800"
-      },
-      {
-        "id":84,
-        "question": "In the sequence 2, 3, 5, 7, 11, 13 what is the next number?",
-        "option1":"17",
-        "option2":"18",
-        "option3":"15",
-        "answer":"17"
-      },
-      {
-        "id":85,
-        "question": "Which is the greatest known ocean depth (which lies in the Pacific Ocean)?",
-        "option1":"11,333 m",
-        "option2":"11,233 m",
-        "option3":"11,033 m",
-        "answer":"11,033 m"
-      },
-      {
-        "id":86,
-        "question": "With which country is Orange’ Revolution associated?",
-        "option1":"Germany",
-        "option2":"Italy",
-        "option3":"Ukraine",
-        "answer":"Ukraine"
-      },
-      {
-        "id":87,
-        "question": "100 degrees Celsius is the boiling point of",
-        "option1":"Water",
-        "option2":"Hydrogen",
-        "option3":"Sodium",
-        "answer":"Water"
-      },
-      {
-        "id":88,
-        "question": "Which country has the briefest Constitution in the world?",
-        "option1":"India",
-        "option2":"USA",
-        "option3":"Japan",
-        "answer":"USA"
-      },
-      {
-        "id":89,
-        "question": "The Sea of Azov is part of which sea?",
-        "option1":"Pacific",
-        "option2":"Black",
-        "option3":"Hindu",
-        "answer":"Black"
-      },
-      {
-        "id":90,
-        "question": "The southern tip of Greenland is near which line of latitude?",
-        "option1":"40",
-        "option2":"50",
-        "option3":"60",
-        "answer":"60"
-      },
-      {
-        "id":91,
-        "question": "Mount Godwin Austin is also known as",
-        "option1":"K6",
-        "option2":"K2",
-        "option3":"K3",
-        "answer":"K2"
-      },
-      {
-        "id":92,
-        "question": "How many kilometers is an international nautical mile?",
-        "option1":"1.85 Km",
-        "option2":"1.65 Km",
-        "option3":"1.75 Km",
-        "answer":"1.85 Km"
-      },
-      {
-        "id":93,
-        "question": "Which letter did Pieter Breughel drop from his name?",
-        "option1":"H",
-        "option2":"E",
-        "option3":"G",
-        "answer":"H"
-      },
-      {
-        "id":94,
-        "question": "How many countries drive on the left ?",
-        "option1":"-8",
-        "option2":"28",
-        "option3":"58",
-        "answer":"58"
-      },
-      {
-        "id":95,
-        "question": "If a bar magnet is cut length wise into 3 parts, what will the total number of poles be?",
-        "option1":"7",
-        "option2":"6",
-        "option3":"8",
-        "answer":"6"
-      },
-      {
-        "id":96,
-        "question": "Rupee was devalued by what percent in July 1991?",
-        "option1":22,
-        "option2":"20",
-        "option3":"25",
-        "answer":"20"
-      },
-      {
-        "id":97,
-        "question": "When was the Madras State renamed Tamil Nadu?",
-        "option1":"1969",
-        "option2":"1968",
-        "option3":"1967",
-        "answer":"1969"
-      },
-      {
-        "id":98,
-        "question": "General Franco was dictator of which country?",
-        "option1":"Poland",
-        "option2":"Spain",
-        "option3":"Italy",
-        "answer":"Spain"
-      },
-      {
-        "id":99,
-        "question": "How much of earth surface is covered by the forests?",
-        "option1":"20",
-        "option2":"30",
-        "option3":"35",
-        "answer":"30"
+        "answer": "52",
+        "question": "How many awards has Andrew Lloyd Webber won in his carrer",
+        "option1": "57",
+        "option2": "52"
       }
-      ]
+    ]
   }
 }
