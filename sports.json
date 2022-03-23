@@ -272,7 +272,136 @@
         "option2": "France",
         "option3": "USA",
         "answer": "Spain"
+      },
+      {
+        "id": 35,
+        "question": "Choose player in Basket ball who has scored most points in his whole career?",
+        "option1": "Michael Jordan",
+        "option2": "Kobe Bryant",
+        "option3": "Kareem Abdul Jabbar",
+        "answer": "Kareem Abdul Jabbar"
+      },
+      {
+        "id": 36,
+        "question": "How many times did Philadelphia 76 ers loss in NBA finals?",
+        "option1": "6",
+        "option2": "5",
+        "option3": "4",
+        "answer": "6"
+      },
+      {
+        "id": 37,
+        "question": "Kevin Love plays for?",
+        "option1": "Atlanta Hawks",
+        "option2": "Brooklun Nets",
+        "option3": "Cleveland Cavaliers",
+        "answer": "Cleveland Cavaliers"
+      },
+      {
+        "id": 38,
+        "question": "How many Championships have won Lakers when team was in Minneapolis and Los Angeles?",
+        "option1": "16",
+        "option2": "15",
+        "option3": "12",
+        "answer": "16"
+      },
+      {
+        "id": 39,
+        "question": "Who is all 3-pointers playoff leader?",
+        "option1": "Manu Ginobili",
+        "option2": "Ray Allen",
+        "option3": "LeBron James",
+        "answer": "Ray Allen"
+      },
+      {
+        "id": 40,
+        "question": "Eastern Conference winner in 2013?",
+        "option1": "Miami Heat",
+        "option2": "Indiana Pacers",
+        "option3": "New York Knicks",
+        "answer": "Miami Heat"
+      },
+      {
+        "id": 41,
+        "question": "Who is the highest run-scorer of all time in International cricket?",
+        "option1": "Ricky Ponting",
+        "option2": "Sachin Tendulkar",
+        "option3": "Virat Kohli",
+        "answer": "Sachin Tendulkar"
+      },
+      {
+        "id": 42,
+        "question": "In which sport do teams compete to win the Stanley Cup?",
+        "option1": "Ice Hockey",
+        "option2": "Hockey",
+        "option3": "Tennis",
+        "answer": "Ice Hockey"
+      },
+      {
+        "id": 43,
+        "question": "In which year did Roger Federer win his first Wimbledon title?",
+        "option1": "2006",
+        "option2": "2004",
+        "option3": "2003",
+        "answer": "2003"
+      },
+      {
+        "id": 44,
+        "question": "England won the 2003 Rugby World Cup thanks to an iconic drop goal from Jonny Wilkinson. How many points did England score in the match?",
+        "option1": "20",
+        "option2": "18",
+        "option3": "22",
+        "answer": "20"
+      },
+      {
+        "id": 45,
+        "question": "How many MMA fights has UFC star Conor McGregor lost during his career?",
+        "option1": "Four",
+        "option2": "Three",
+        "option3": "Six",
+        "answer": "Four"
+      },
+      {
+        "id": 46,
+        "question": "How many Olympic gold medals did rower Steve Redgrave win?",
+        "option1": "4",
+        "option2": "5",
+        "option3": "3",
+        "answer": "5"
+      },
+      {
+        "id": 47,
+        "question": "Usain Bolt is still the fastest man in the world, running 100m in 9.58 seconds. In which year did he set that record?",
+        "option1": "2007",
+        "option2": "2008",
+        "option3": "2009",
+        "answer": "2009"
+      },
+      {
+        "id": 48,
+        "question": "Coco Gauff made headlines at Wimbledon last year when she beat Venus Williams. How old was Gauff?",
+        "option1": "15",
+        "option2": "16",
+        "option3": "12",
+        "answer": "15"
+      },
+      {
+        "id": 49,
+        "question": "In which sport is 180 deemed a perfect score?",
+        "option1": "Hockey",
+        "option2": "Darts",
+        "option3": "Tennis",
+        "answer": "Darts"
+      },
+      {
+        "id": 50,
+        "question": "Which sport involves tucks and pikes?",
+        "option1": "Diving",
+        "option2": "Darts",
+        "option3": "Tennis",
+        "answer": "Diving"
       }
+      
     ]
   }
 }
