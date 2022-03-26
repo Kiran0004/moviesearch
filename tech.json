@@ -80,6 +80,126 @@
         "option2":"Uninterruptible Program Supply.",
         "option3":"Uniform Power Supply.",
         "answer":"Uninterruptible Power Supply."
+      },
+      {
+        "id":11,
+        "question":"Which is not an Internet protocol?",
+        "option1":"IP",
+        "option2":"STP",
+        "option3":"HTTP",
+        "answer":"STP"
+      },
+      {
+        "id":12,
+        "question":"Another name for a computer chip is?",
+        "option1":"Micro chip",
+        "option2":"Execute",
+        "option3":"Microprocessor",
+        "answer":"Micro chip"
+      },
+      {
+        "id":13,
+        "question":"In what year was the @ chosen for its use in e-mail addresses?",
+        "option1":"1976",
+        "option2":"1972",
+        "option3":"1974",
+        "answer":"1972"
+      },
+      {
+        "id":14,
+        "question":"What is the full form of CD?",
+        "option1":"Copy Density",
+        "option2":"Change Data",
+        "option3":"Compact Disc",
+        "answer":"Compact Disc"
+      },
+      {
+        "id":15,
+        "question":"What is the full form of RAM?",
+        "option1":"Read Access Memory",
+        "option2":"Random Access Memory",
+        "option3":"Random Accent Memory",
+        "answer":"Random Access Memory"
+      },
+      {
+        "id":16,
+        "question":"How many bits is a byte?",
+        "option1":"8",
+        "option2":"16",
+        "option3":"32",
+        "answer":"8"
+      },
+      {
+        "id":17,
+        "question":"Computers calculate numbers in what mode?",
+        "option1":"Octal",
+        "option2":"Binary",
+        "option3":"Decimal",
+        "answer":"Binary"
+      },
+      {
+        "id":18,
+        "question":"The speed of your net access is defined in terms of?",
+        "option1":"Kbps",
+        "option2":"Megabytes",
+        "option3":"MHz",
+        "answer":"Kbps"
+      },
+      {
+        "id":19,
+        "question":"Which was an early mainframe computer?",
+        "option1":"BRAINIA",
+        "option2":"ENIAC",
+        "option3":"UNIC",
+        "answer":"ENIAC"
+      },
+      {
+        "id":20,
+        "question":"Which of these is not a computer?",
+        "option1":"Paseo",
+        "option2":"Macintosh",
+        "option3":"Acorn",
+        "answer":"Paseo"
+      },
+      {
+        "id":21,
+        "question":"Which of the following is not a programming language?",
+        "option1":"Basic",
+        "option2":"Java",
+        "option3":"Turing",
+        "answer":"Turing"
+      },
+      {
+        "id":22,
+        "question":"Which of the following is not a method of accessing the web?",
+        "option1":"ISDN",
+        "option2":"CPU",
+        "option3":"DSL",
+        "answer":"CPU"
+      },
+      {
+        "id":23,
+        "question":"In which decade was the Internet first implemented?",
+        "option1":"1960s",
+        "option2":"1970s",
+        "option3":"1980s",
+        "answer":"1960s"
+      },
+      {
+        "id":24,
+        "question":"Main circuit board in a computer is?",
+        "option1":"Decoder",
+        "option2":"Highlight",
+        "option3":"Mother board",
+        "answer":"Mother board"
+      },
+      {
+        "id":25,
+        "question":"Which of the following operating systems is produced by IBM?",
+        "option1":"UNIX",
+        "option2":"OS-2",
+        "option3":"Windows",
+        "answer":"OS-2"
       }
       ]
   }
