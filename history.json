@@ -200,6 +200,206 @@
         "option2": "Zog",
         "option3": "Andrew",
         "answer": "Farouk"
+      },
+      {
+        "id": 26,
+        "question": "How long did Hitler envision his Third Reich lasting?",
+        "option1": "100 years",
+        "option2": "1000 years",
+        "option3": "50 years",
+        "answer": "1000 years"
+      },
+      {
+        "id": 27,
+        "question": "What style of architecture is exemplified by the Notre Dame cathedral in Paris?",
+        "option1": "Art Deco",
+        "option2": "Brutalist",
+        "option3": "Gothic",
+        "answer": "Gothic"
+      },
+      {
+        "id": 28,
+        "question": "Where was the Metric System developed?",
+        "option1": "Italy",
+        "option2": "France",
+        "option3": "USA",
+        "answer": "France"
+      },
+      {
+        "id": 29,
+        "question": "In what modern-day country was Stalin born?",
+        "option1": "Russia",
+        "option2": "Germany",
+        "option3": "Georgia",
+        "answer": "Georgia"
+      },
+      {
+        "id": 30,
+        "question": "When did the Crimean War happen?",
+        "option1": "1800s",
+        "option2": "1700s",
+        "option3": "1900s",
+        "answer": "1800s"
+      },
+      {
+        "id": 31,
+        "question": "Who did John Hinckley shoot in 1981?",
+        "option1": "Golda Meir",
+        "option2": "John Lennon",
+        "option3": "Ronald Reagan",
+        "answer": "Ronald Reagan"
+      },
+      {
+        "id": 32,
+        "question": "What term refers to a branch of a royal family founded by younger sons?",
+        "option1": "Cadet branch",
+        "option2": "Ensign branch",
+        "option3": "Lieutenant branch",
+        "answer": "Cadet branch"
+      },
+      {
+        "id": 33,
+        "question": "What did Wernher von Braun design?",
+        "option1": "Furniture",
+        "option2": "Rockets",
+        "option3": "Clothing",
+        "answer": "Rockets"
+      },
+      {
+        "id": 34,
+        "question": "Who hosted the Olympics in 1940?",
+        "option1": "Paris",
+        "option2": "Los Angeles",
+        "option3": "Cancelled",
+        "answer": "Cancelled"
+      },
+      {
+        "id": 35,
+        "question": "What country accepted responsibility for the bombing of Pan Am Flight 103 over Lockerbie, Scotland?",
+        "option1": "Russia",
+        "option2": "Libya",
+        "option3": "North Korea",
+        "answer": "Libya"
+      },
+      {
+        "id": 36,
+        "question": "What was the original purpose of the Taj Mahal?",
+        "option1": "A mausoleum",
+        "option2": "An armory",
+        "option3": "A mosque",
+        "answer": "A mausoleum"
+      },
+      {
+        "id": 37,
+        "question": "What was the capital of the Byzantine Empire?",
+        "option1": "Constantinople",
+        "option2": "Rome",
+        "option3": "Jerusalem",
+        "answer": "Constantinople"
+      },
+      {
+        "id": 38,
+        "question": "What did Costa Rica abolish in 1949?",
+        "option1": "Taxes",
+        "option2": "Slavery",
+        "option3": "Its military",
+        "answer": "Its military"
+      },
+      {
+        "id": 39,
+        "question": "Which of these crops DIDN'T come from the New World?",
+        "option1": "Hemp",
+        "option2": "Tomatoes",
+        "option3": "Maize",
+        "answer": "Hemp"
+      },
+      {
+        "id": 40,
+        "question": "Where did Karl Marx spend most of his adult life?",
+        "option1": "Berlin",
+        "option2": "Moscow",
+        "option3": "London",
+        "answer": "London"
+      },
+      {
+        "id": 41,
+        "question": "What country was formerly known as Southern Rhodesia?",
+        "option1": "Uruguay",
+        "option2": "Zimbabwe",
+        "option3": "Kenya",
+        "answer": "Zimbabwe"
+      },
+      {
+        "id": 42,
+        "question": "Which of these countries was never colonized in any way by France?",
+        "option1": "Chile",
+        "option2": "Vietnam",
+        "option3": "Algeria",
+        "answer": "Chile"
+      },
+      {
+        "id": 43,
+        "question": "Which of these years occurred during the Belle Époque?",
+        "option1": "1750",
+        "option2": "1900",
+        "option3": "1600",
+        "answer": "1900"
+      },
+      {
+        "id": 44,
+        "question": "Which of these was invented in France?",
+        "option1": "Airplanes",
+        "option2": "Computers",
+        "option3": "Photography",
+        "answer": "Photography"
+      },
+      {
+        "id": 45,
+        "question": "What is the name of the current iteration of the French government?",
+        "option1": "Second Republic",
+        "option2": "Fifth Republic",
+        "option3": "Third Republic",
+        "answer": "Fifth Republic"
+      },
+      {
+        "id": 46,
+        "question": "In which war did France suffer the most military casualties?",
+        "option1": "World War One",
+        "option2": "Algerian War",
+        "option3": "World War Two",
+        "answer": "World War One"
+      },
+      {
+        "id": 47,
+        "question": "Who were the Huguenots?",
+        "option1": "Early hot air balloon explorers",
+        "option2": "French Protestants",
+        "option3": "Fans of Victor Hugo",
+        "answer": "French Protestants"
+      },
+      {
+        "id": 48,
+        "question": "What country was blamed for the sinking of the USS Maine in 1898?",
+        "option1": "Spain",
+        "option2": "Germany",
+        "option3": "UK",
+        "answer": "Spain"
+      },
+      {
+        "id": 49,
+        "question": "In what year did the U.S enter World War II?",
+        "option1": "1939",
+        "option2": "1941",
+        "option3": "1944",
+        "answer": "1941"
+      },
+      {
+        "id": 50,
+        "question": "Which of these cities has not hosted the Olympics?",
+        "option1": "St. Louis",
+        "option2": "Chicago",
+        "option3": "Atlanta",
+        "answer": "Chicago"
       }
     ]
   }
