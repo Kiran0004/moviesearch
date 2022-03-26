@@ -75,8 +75,8 @@
       },
       {
         "id": 10,
-        "answer": "Tennies",
-        "question": "Vishwanathan Anand is not belongs to which sport?",
+        "answer": "Chess",
+        "question": "Vishwanathan Anand is belongs to which sport?",
         "option1": "Chess",
         "option2": "Tennies",
         "option3": "Golf"
@@ -147,8 +147,8 @@
       },
       {
         "id": 19,
-        "answer": "3 idiots",
-        "question": "Which Indian Movie was not played at RoyalAlbertHall,London?",
+        "answer": "Bahubali",
+        "question": "Which Indian Movie was played at RoyalAlbertHall,London?",
         "option1": "Bahubali",
         "option2": "3 idiots",
         "option3": "Saho"
