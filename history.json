@@ -35,11 +35,11 @@
       },
       {
         "id": 5,
-        "question": "Who was the world’s first woman Prime Minister?",
-        "option1": "Sirimavo Bandaranaike",
-        "option2": "Indira Gandhi",
-        "option3": "Golda Meir",
-        "answer": "Sirimavo Bandaranaike"
+        "question": "Who became the Prime Minister of UK in 2022?",
+        "option1": "Rishi Sunak",
+        "option2": "Toni Blair",
+        "option3": "Charles",
+        "answer": "Rishi Sunak"
       },
       {
         "id": 6,
