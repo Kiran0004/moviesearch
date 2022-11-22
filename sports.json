@@ -147,11 +147,11 @@
       },
       {
         "id": 19,
-        "answer": "Bahubali",
-        "question": "Which Indian Movie was played at RoyalAlbertHall,London?",
-        "option1": "Bahubali",
-        "option2": "3 idiots",
-        "option3": "Saho"
+        "answer": "Australia",
+        "question": "ICC Men's T20 for the year 2022 was held in?",
+        "option1": "Australia",
+        "option2": "England",
+        "option3": "India"
       },
       {
         "id": 20,
@@ -163,11 +163,11 @@
       },
       {
         "id": 21,
-        "answer": "Srisaila Sri Rajamouli",
-        "question": "What is the Full name of Rajamouli?",
-        "option1": "Srisaila Sri Rajamouli",
-        "option2": "Srisaila Sai Rajamouli",
-        "option3": "Srisaila Sagar Rajamouli"
+        "answer": "Qatar",
+        "question": "Fifa world cup 2022 is held in?",
+        "option1": "London",
+        "option2": "Qatar",
+        "option3": "France"
       },
       {
         "id": 22,
